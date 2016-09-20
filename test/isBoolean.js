@@ -19,4 +19,12 @@ describe( 'isBoolean', () => {
 		expect( isBoolean( null ) ).toEqual(false)
 	})
 
+	it ( 'returns false if input is undefined', () => {
+		expect( isBoolean( undefined ) ).toEqual(false)
+	})
+
+	it ( 'returns false if input is an object', () => {
+		expect( isBoolean( {name: 'Shaka'}) ).toEqual(false)
+	})
+
 })
