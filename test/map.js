@@ -6,7 +6,7 @@ import { map } from '../src/map'
 
 describe( 'map', () => {
 
-  it('performs a function each element in array, returning a new array', () => {
+  it('performs a function on each element in array, returning a new array', () => {
     const addTwo = (item) => {
       return item + 2;
     }
