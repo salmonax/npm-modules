@@ -32,8 +32,12 @@ describe( 'map', () => {
     expect( map({0:"hello",1:"hi"},addWorld) ).toEqual(['hello world','hi world'])
 
   })
-
-
+  it('returns an empty array when input is undefined', () => {
+    expect(map(undefined, () => {})).toEqual([])
+  })
+  it ('returns an empty array when the input is null', () => {
+    expect(map(null, () => {})).toEqual([])
+  }) 
 })
 
 

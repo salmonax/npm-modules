@@ -4,7 +4,7 @@ const map = (collection, callback) => {
     for (let i=0;i < collection.length; i++) {
       mappedOutput.push( callback(collection[i],i) )
     }
-  } else if (typeof collection === "object") {
+  } else if (collection && typeof collection === "object") {
     let keys = Object.keys(collection)
     for (let i=0; i < keys.length; i++) {
       mappedOutput.push( callback(collection[keys[i]],keys[i]) ) 
