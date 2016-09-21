@@ -1,11 +1,14 @@
 const max = input => {
-  let num 
-  for (let i = 0; i < input.length; i++) {  
-    if (!num || num < input[i]) {
-      num = input[i]
+	if (input instanceof Array) {
+    let num 
+
+		for (let i = 0; i < input.length; i++) {  
+      if (!num || num < input[i]) {
+        num = input[i]
+      }
     }
-  }
-  return num
+    return num
+	}
 }
 
 export { max }
