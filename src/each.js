@@ -1,16 +1,15 @@
-const map = (collection, callback) => {
-  let mappedOutput = []
+const each = (collection, callback) => {
   if (collection instanceof Array || typeof collection === 'string' ) {
     for (let i=0;i < collection.length; i++) {
-      mappedOutput.push( callback(collection[i],i) )
+      callback(collection[i],i)
     }
   } else if (collection && typeof collection === "object") {
     let keys = Object.keys(collection)
     for (let i=0; i < keys.length; i++) {
-      mappedOutput.push( callback(collection[keys[i]],keys[i]) ) 
+      callback(collection[keys[i]],keys[i]) 
     }
   }
-  return mappedOutput
+  return collection
 }
 
-export { map }
+export { each }
