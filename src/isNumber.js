@@ -1,1 +1,1 @@
-export default isNumber = input => typeof input === 'number'
+export default input => typeof input === 'number'

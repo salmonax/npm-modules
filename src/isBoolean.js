@@ -1,1 +1,1 @@
-export default isBoolean = input => typeof input === 'boolean'
+export default input => typeof input === 'boolean'

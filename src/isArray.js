@@ -1,1 +1,1 @@
-export default isArray = input => input instanceof Array
+export default input => input instanceof Array

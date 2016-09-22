@@ -1,1 +1,1 @@
-export default isFunction = input => typeof input === 'function'
+export default input => typeof input === 'function'

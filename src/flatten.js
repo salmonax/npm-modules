@@ -1,4 +1,4 @@
-export default flatten = (collection) => {
+export default (collection) => {
 
   let output = []
   if (collection instanceof Array || typeof collection === 'string') {

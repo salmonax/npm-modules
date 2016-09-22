@@ -1,4 +1,4 @@
-export default reverse = input => {
+export default input => {
   if (input instanceof Array) {
     let newInput = []
     for(let i=0; i < input.length; i++) {

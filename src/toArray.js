@@ -1,4 +1,4 @@
-export default toArray = (input) => {
+export default (input) => {
   let newInput = []
   if (input instanceof Array) {
     return input

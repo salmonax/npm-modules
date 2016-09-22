@@ -1,4 +1,4 @@
-export default min = input => {
+export default input => {
   if (input instanceof Array) {
     let num 
 

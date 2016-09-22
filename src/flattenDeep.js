@@ -1,4 +1,4 @@
-export default flattenDeep = (collection) => {
+export default (collection) => {
   if(typeof collection === 'string') {
     return collection.split('')
   }

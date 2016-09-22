@@ -1,4 +1,4 @@
-export default isObject = (input) => {
+export default (input) => {
 	return input instanceof Object 
 }
 

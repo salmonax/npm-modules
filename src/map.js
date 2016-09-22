@@ -1,4 +1,4 @@
-export default map = (collection, callback) => {
+export default (collection, callback) => {
   let mappedOutput = []
   if (collection instanceof Array || typeof collection === 'string' ) {
     for (let i=0;i < collection.length; i++) {
