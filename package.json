@@ -1,5 +1,5 @@
 {
-  "name": "npm-modules",
+  "name": "alpacaDash",
   "version": "1.0.1",
   "description": "A reshashing of Lodash",
   "main": "index.js",
