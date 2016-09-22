@@ -1,8 +1,8 @@
 {
   "name": "alpacaDash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A reshashing of Lodash",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel --copy-files src --out-dir dist",
     "build:watch": "npm run build -- --watch",
