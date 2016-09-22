@@ -2,7 +2,7 @@ import mocha from 'mocha'
 import chai from 'chai'
 import expect from 'expect'
 
-import { flatten } from '../src/flatten'
+import flatten from '../src/flatten'
 
 describe( 'flatten', () => {
 

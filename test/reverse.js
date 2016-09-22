@@ -2,7 +2,7 @@ import mocha from 'mocha'
 import chai from 'chai'
 import expect from 'expect'
 
-import { reverse } from '../src/reverse'
+import reverse from '../src/reverse'
 
 describe( 'reverse', () => {
 

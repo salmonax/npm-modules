@@ -2,15 +2,10 @@ import mocha from 'mocha'
 import chai from 'chai'
 import expect from 'expect'
 
-import { flattenDeep } from '../src/flattenDeep'
+import flattenDeep from '../src/flattenDeep'
 
-describe( 'flattenDeep', () => {
+describe('flattenDeep', () => {
   it('flattens a nested array to a single level', () => {
-      //_.flatten([1, [2, [3, [4]], 5]])
-      // => [1, 2, [3, [4]], 5] 
-      // [2, [3, [4]]
-      // [3, [4]]
-      // [4]
       let flattenResult = flattenDeep([1, [2, [3, [4]], 5]])
       expect(flattenResult).toEqual([1, 2, 3, 4, 5])
   })

@@ -2,7 +2,7 @@ import mocha from 'mocha'
 import chai from 'chai'
 import expect from 'expect'
 
-import { toArray } from '../src/toArray'
+import toArray from '../src/toArray'
 
 describe( 'toArray', () => {
 
