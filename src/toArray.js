@@ -1,4 +1,4 @@
-const toArray = (input => {
+export default (input) => {
   let newInput = []
   if (input instanceof Array) {
     return input
@@ -16,6 +16,5 @@ const toArray = (input => {
   }
   return newInput 
   
-})
+}
 
-export { toArray }

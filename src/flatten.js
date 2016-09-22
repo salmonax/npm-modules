@@ -1,4 +1,4 @@
-const flatten = (collection) => {
+export default (collection) => {
 
   let output = []
   if (collection instanceof Array || typeof collection === 'string') {
@@ -17,4 +17,3 @@ const flatten = (collection) => {
   return output
 }
 
-export { flatten } 

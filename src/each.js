@@ -1,4 +1,4 @@
-const each = (collection, callback) => {
+export default (collection, callback) => {
   if (collection instanceof Array || typeof collection === 'string' ) {
     for (let i=0;i < collection.length; i++) {
       callback(collection[i],i)
@@ -11,5 +11,3 @@ const each = (collection, callback) => {
   }
   return collection
 }
-
-export { each }

@@ -1,2 +1,1 @@
-const isBoolean = input => typeof input === 'boolean'
-export { isBoolean }
+export default input => typeof input === 'boolean'
