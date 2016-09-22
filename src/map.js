@@ -1,4 +1,4 @@
-const map = (collection, callback) => {
+export default map = (collection, callback) => {
   let mappedOutput = []
   if (collection instanceof Array || typeof collection === 'string' ) {
     for (let i=0;i < collection.length; i++) {
@@ -13,4 +13,3 @@ const map = (collection, callback) => {
   return mappedOutput
 }
 
-export { map }

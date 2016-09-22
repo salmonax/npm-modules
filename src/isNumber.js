@@ -1,2 +1,1 @@
-const isNumber = input => typeof input === 'number'
-export { isNumber } 
+export default isNumber = input => typeof input === 'number'

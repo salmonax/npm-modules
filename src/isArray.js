@@ -1,3 +1,1 @@
-const isArray = input => input instanceof Array
-
-export { isArray }
+export default isArray = input => input instanceof Array

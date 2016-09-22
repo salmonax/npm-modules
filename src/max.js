@@ -1,4 +1,4 @@
-const max = input => {
+export default max = input => {
 	if (input instanceof Array) {
     let num 
 
@@ -11,4 +11,3 @@ const max = input => {
 	}
 }
 
-export { max }

@@ -1,2 +1,1 @@
-const isFunction = input => typeof input === 'function'
-export { isFunction }
+export default isFunction = input => typeof input === 'function'

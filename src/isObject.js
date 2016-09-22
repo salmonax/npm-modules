@@ -1,6 +1,6 @@
-const isObject = ( input => {
+export default isObject = (input) => {
 	return input instanceof Object 
-})
+}
 
-export { isObject }
+
 
