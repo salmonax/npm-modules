@@ -1,17 +1,18 @@
-const flattenDeep = (collection, output) => {
-  if (!output) { output = [] }
-  if (collection instanceof Array || typeof collection === 'string') {
+export const flattenDeep = (collection) => {
+  if(typeof collection === 'string') {
+    return collection.split('')
+  }
+  let result = []
+  if (Array.isArray(collection)) {
     for (let i=0;i < collection.length; i++) { 
-      if (collection[i] instanceof Array) {
-        let subArray = collection[i]
-        flattenDeep(subArray, output)
+      if (Array.isArray(collection[i])) {
+        const flattened = flattenDeep(collection[i])
+        result = result.concat(flattened)
       } else {
-        output.push(collection[i])
+        result.push(collection[i])
       }
 
     }
   }
-  return output
+  return result
 }
-
-export { flattenDeep } 

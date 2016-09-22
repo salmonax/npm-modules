@@ -5,7 +5,6 @@ import expect from 'expect'
 import { flattenDeep } from '../src/flattenDeep'
 
 describe( 'flattenDeep', () => {
-
   it('flattens a nested array to a single level', () => {
       //_.flatten([1, [2, [3, [4]], 5]])
       // => [1, 2, [3, [4]], 5] 
