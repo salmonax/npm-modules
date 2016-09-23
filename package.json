@@ -1,6 +1,6 @@
 {
   "name": "alpacaDash",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A reshashing of Lodash",
   "main": "dist/index.js",
   "scripts": {
