@@ -19,8 +19,8 @@ The questions that this project will raise are:
 
 ### Required
 
-- [ ] Includes 15 commonly used methods in ES2015, inspired by Lodash.
-- [ ] Includes a README that describes each method and provides an example of use. 
+- [X] Includes 17 commonly used methods in ES2015, inspired by Lodash.
+- [X] Includes a README that describes each method and provides an example of use. 
 - [X] Package is published with NPM.
 - [X] Includes tests for all methods described.
 - [X] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
