@@ -1,11 +1,11 @@
 #isArray
 
 ###Overview
-Converts value to an array. 
+isArray checks if the argument it recieves is an array. 
 
 ###Technical Explanation
-The function isArray takes a value as it's argument and iterates over a collection to check if the collection is an array. 
 
+The function isArray takes a value as it's argument and uses instanceof to check if it is an array. The function will return false if given any other type of argument.  
 
 
 ###Code Example
