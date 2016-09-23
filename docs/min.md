@@ -1,7 +1,7 @@
 #min
 
 ###overview
-Computes the minimum value of an array. 
+Computes the minimum value in an array. 
 
 ###Technical Explanation 
 

@@ -1,7 +1,7 @@
 #isArray
 
 ###Overview
-Checks if value is an array in a collection
+Converts value to an array. 
 
 ###Technical Explanation
 The function isArray takes a value as it's argument and iterates over a collection to check if the collection is an array. 
