@@ -2,7 +2,7 @@ import mocha from 'mocha'
 import chai from 'chai'
 import expect from 'expect'
 
-import { isObject } from '../src/isObject'
+import isObject from '../src/isObject'
 
 describe ('isObject', () => {
 	it ('returns true if input is an Object',  () => {

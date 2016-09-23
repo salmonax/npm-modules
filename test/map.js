@@ -2,7 +2,7 @@ import mocha from 'mocha'
 import chai from 'chai'
 import expect from 'expect'
 
-import { map } from '../src/map'
+import map from '../src/map'
 
 describe( 'map', () => {
 

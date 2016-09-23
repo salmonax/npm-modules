@@ -1,4 +1,4 @@
-export default (collection) => {
+const flattenDeep = (collection) => {
   if(typeof collection === 'string') {
     return collection.split('')
   }
@@ -16,3 +16,4 @@ export default (collection) => {
   }
   return result
 }
+export default flattenDeep

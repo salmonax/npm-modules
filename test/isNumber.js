@@ -2,7 +2,7 @@ import mocha from 'mocha'
 import chai from 'chai'
 import expect from 'expect'
 
-import { isNumber } from '../src/isNumber'
+import isNumber from '../src/isNumber'
 
 
 describe( 'isNumber', () => {

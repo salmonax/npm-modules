@@ -2,7 +2,7 @@ import mocha from 'mocha'
 import chai from 'chai'
 import expect from 'expect'
 
-import { isBoolean } from '../src/isBoolean'
+import isBoolean from '../src/isBoolean'
 
 
 describe( 'isBoolean', () => {
